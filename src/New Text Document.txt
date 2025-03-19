@@ -1,0 +1,14 @@
+wget
+
+    os.system("cd Tensorflow/models/research && protoc object_detection/protos/*.proto --python_out=.")
+    os.system("cd Tensorflow/models/research && pip install .")
+    os.system("cd Tensorflow/models/research/slim && pip install -e .")
+
+scipy
+
+!pip install tensorflow==2.10.0 --no-cache-dir
+
+tf_keras
+
+!pip install matplotlib
+!pip install protobuf==3.20.1 --no-cache-dir
